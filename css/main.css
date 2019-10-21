@@ -3402,12 +3402,12 @@ footer a:hover, footer a:focus {
 }
 
 .footer-bottom {
-    margin-top: 7.2rem;
     text-align: center;
 }
 
 .footer-bottom .copyright span {
     display: inline-block;
+    color: #fff;
 }
 
 .footer-bottom .copyright span::after {
