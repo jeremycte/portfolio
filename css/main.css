@@ -3780,7 +3780,7 @@ article.blog-single .blog-content {
 
 .blog-content__main img {
     max-width: 1000px;
-    margin: 3rem 0 3rem -6rem;
+    /* margin: 3rem 0 3rem -6rem; */
 }
 
 
@@ -3952,7 +3952,8 @@ article.blog-single .blog-content {
     }
     .blog-content__main img {
         max-width: 900px;
-        margin: 3rem 0 3rem -5rem;
+        /* margin: 3rem 0 3rem -5rem; */
+        margin: 1.5rem 3rem 0 0;
     }
 }
 
