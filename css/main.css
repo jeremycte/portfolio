@@ -2418,8 +2418,8 @@ html.no-csstransitions .home-content__main {
 
 .item-folio__thumb img {
     vertical-align: top;
-    -webkit-transition: all 0.5s ease-in-out;
-    transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
 }
 
 .item-folio__thumb .shadow-overlay {
@@ -2450,8 +2450,8 @@ html.no-csstransitions .home-content__main {
     left: 0;
     width: 100%;
     height: 100%;
-    -webkit-transition: all 0.5s ease-in-out;
-    transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
     z-index: 1;
 }
 
