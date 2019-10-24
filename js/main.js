@@ -316,6 +316,21 @@
     };
 
 
+    /* Animate On Scroll
+    * ------------------------------------------------------ */
+    var ssAOS = function() {
+
+        AOS.init( {
+            offset: 200,
+            duration: 600,
+            easing: 'ease-in-sine',
+            delay: 300,
+            once: true,
+            disable: 'mobile'
+        });
+
+    };
+
     /* Placeholder Plugin Settings
      * ------------------------------------------------------ */
     var ssPlaceholder = function() {
@@ -421,12 +436,13 @@
         ssPhotoswipe();
         ssSlickSlider();
         ssWaypoints();
-        ssStatCount();
+        // ssStatCount();
         ssSmoothScroll();
         ssPlaceholder();
         ssAlertBoxes();
         ssContactForm();
         ssBackToTop();
+        ssAOS();
 
     })();
 
