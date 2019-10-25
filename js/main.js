@@ -116,12 +116,30 @@
   /* Masonry
    * ---------------------------------------------------- */
   var ssMasonryFolio = function() {
-    jQuery(document).ready(function($) {
-      var $container = $(".masonry").masonry({
-        columnWidth: 1
-      });
-      $container.imagesLoaded(function() {
-        $container.masonry();
+    // jQuery(document).ready(function($) {
+    //   var $container = $(".masonry").masonry({
+    //     columnWidth: 1
+    //   });
+    //   $container.imagesLoaded(function() {
+    //     $container.masonry();
+    //   });
+    // });
+
+    // var containerBricks = $(".masonry");
+
+    // containerBricks.imagesLoaded(function() {
+    //   containerBricks.masonry({
+    //     itemSelector: ".masonry__brick",
+    //     resize: true
+    //   });
+    // });
+
+    var $grid = $(".masonry");
+    $grid.imagesLoaded().progress(function() {
+      // init Masonry after all images have loaded
+      $grid.masonry({
+        itemSelector: ".masonry__brick",
+        resize: true
       });
     });
   };
