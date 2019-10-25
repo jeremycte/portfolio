@@ -136,10 +136,26 @@
 
     var $grid = $(".masonry");
 
+    $grid
+      .imagesLoaded()
+      .always(function(instance) {
+        console.log("all images loaded");
+      })
+      .done(function(instance) {
+        console.log("all images successfully loaded");
+      })
+      .fail(function() {
+        console.log("all images loaded, at least one is broken");
+      })
+      .progress(function(instance, image) {
+        var result = image.isLoaded ? "loaded" : "broken";
+        console.log("image is " + result + " for " + image.img.src);
+      });
+
     $grid.masonry({
-      columnWidth: 200
+      columnWidth: 1
     });
-    $grid.imagesLoaded().progress(function() {
+    $grid.imagesLoaded(function() {
       // init Masonry after all images have loaded
       $grid.masonry({
         itemSelector: ".masonry__brick",
