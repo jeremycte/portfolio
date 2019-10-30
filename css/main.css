@@ -1,7 +1,7 @@
 /* ===================================================================
  *
- *  Hola v1.0 Main Stylesheet
- *  10-02-2017
+ *  Jeremy Chan Portfolio v1.0 Main Stylesheet
+ *  30-10-2019
  *  ------------------------------------------------------------------
  *
  *  TOC:
@@ -4165,3 +4165,11 @@ article.blog-single .blog-content {
         display: none;
     }
 }
+
+
+/* ! For Debugging Purposes*/
+/* * {
+    background: #000 !important;
+    color: #0f0 !important;
+    outline: solid #f00 1px !important;
+} */
