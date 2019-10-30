@@ -116,26 +116,12 @@
   /* Masonry
    * ---------------------------------------------------- */
   var ssMasonryFolio = function() {
-    // jQuery(document).ready(function($) {
-    //   var $container = $(".masonry").masonry({
-    //     columnWidth: 1
-    //   });
-    //   $container.imagesLoaded(function() {
-    //     $container.masonry();
-    //   });
-    // });
-
-    // var containerBricks = $(".masonry");
-
-    // containerBricks.imagesLoaded(function() {
-    //   containerBricks.masonry({
-    //     itemSelector: ".masonry__brick",
-    //     resize: true
-    //   });
-    // });
 
     var $grid = $(".masonry");
-    var masonryDisplay = document.getElementsByClassName("masonry");
+
+    $grid.masonry({
+      columnWidth: 1
+    });
 
     $grid
       .imagesLoaded()
@@ -153,21 +139,12 @@
         console.log("image is " + result + " for " + image.img.src);
       });
 
-
     $grid.imagesLoaded(function() {
-      setTimeout(function(){
-        alert("Hello");
-        console.log("Hi, I'm inside imagesLoaded()");
-      $grid.masonry({
-        columnWidth: 1
-      });
       // init Masonry after all images have loaded
       $grid.masonry({
         itemSelector: ".masonry__brick",
         resize: true
       });
-    }, 3000);
-
     });
   };
 
