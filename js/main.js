@@ -135,6 +135,7 @@
     // });
 
     var $grid = $(".masonry");
+    var masonryDisplay = document.getElementsByClassName("masonry");
 
     $grid
       .imagesLoaded()
@@ -152,15 +153,21 @@
         console.log("image is " + result + " for " + image.img.src);
       });
 
-    $grid.masonry({
-      columnWidth: 1
-    });
+
     $grid.imagesLoaded(function() {
+      setTimeout(function(){
+        alert("Hello");
+        console.log("Hi, I'm inside imagesLoaded()");
+      $grid.masonry({
+        columnWidth: 1
+      });
       // init Masonry after all images have loaded
       $grid.masonry({
         itemSelector: ".masonry__brick",
         resize: true
       });
+    }, 3000);
+
     });
   };
 
