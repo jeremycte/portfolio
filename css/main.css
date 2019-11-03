@@ -104,7 +104,7 @@ a {
 }
 
 a:hover, a:focus, a:active {
-    color: #191A3F;
+    color: rgb(217, 218, 223);
 }
 
 a:focus {
@@ -441,6 +441,10 @@ img.pull-right {
 }
 
 img.pull-left {
+    margin: 1.5rem 3rem 0 0;
+}
+
+.pull-left{
     margin: 1.5rem 3rem 0 0;
 }
 
