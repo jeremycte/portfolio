@@ -1,7 +1,7 @@
 ﻿<?php
 
 // Replace this with your own email address
-$siteOwnersEmail = 'jeremycte23@gmail.com';
+$siteOwnersEmail = 'jeremycte23@gmail.com, me@jeremychan.co';
 
 
 if($_POST) {
@@ -30,11 +30,11 @@ if($_POST) {
 
 
     // Set Message
-    $message .= "Email from: " . $name . "<br />";
-    $message .= "Email address: " . $email . "<br />";
-    $message .= "Message: <br />";
+    $message .= "<strong>Email from:</strong> " . $name . "<br />";
+    $message .= "<strong>Email address:</strong> " . $email . "<br />";
+    $message .= "<strong>Message:</strong> <br />";
     $message .= $contact_message;
-    $message .= "<br /> ----- <br /> This email was sent from your site's contact form. <br />";
+    $message .= "<br /> ----------------------------------- <br /> This email was sent from www.jeremychan.co <br />";
 
     // Set From: header
     $from =  $name . " <" . $email . ">";
