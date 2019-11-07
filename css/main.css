@@ -2290,7 +2290,7 @@ html.no-csstransitions .home-content__main {
     line-height: 1.5;
     text-transform: uppercase;
     letter-spacing: .15rem;
-    color: rgba(0, 0, 0, 0.5);
+    color: rgba(0, 0, 0, 1.0);
     margin-bottom: .9rem;
     font-family: "montserrat-bold", sans-serif;
 }

@@ -105,7 +105,7 @@
     <!-- home
    ================================================== -->
     <section id="home" class="s-home page-hero target-section" data-parallax="scroll"
-        data-image-src="images/hero-bg.jpg" alt="hero-bg" data-natural-width=3000 data-natural-height=2000
+        data-image-src="images/hero-bg.jpg" data-image-alt="hero-bg" alt="hero-bg" data-natural-width=3000 data-natural-height=2000
         data-position-y=center>
 
         <div class="overlay"></div>
@@ -1208,21 +1208,21 @@
 
                         <div class="form-field">
                             <input name="contactName" type="text" id="contactName" placeholder="Name" value=""
-                                minlength="2" required="" aria-required="true" class="full-width">
+                                minlength="2" required="" aria-required="true" aria-label="Contact Name" class="full-width">
                         </div>
                         <div class="form-field">
                             <input name="contactEmail" type="email" id="contactEmail" placeholder="Email" value=""
-                                required="" aria-required="true" class="full-width">
+                                required="" aria-required="true" aria-label="Contact Email" class="full-width">
                         </div>
                         <div class="form-field">
-                            <input name="contactSubject" type="text" id="contactSubject" placeholder="Subject" value=""
+                            <input name="contactSubject" aria-label="Contact Subject" type="text" id="contactSubject" placeholder="Subject" value=""
                                 class="full-width">
                         </div>
                         <div class="form-field">
                             <textarea name="contactMessage" id="contactMessage" placeholder="Message" rows="10"
-                                cols="50" required="" aria-required="true" class="full-width"></textarea>
+                                cols="50" required="" aria-required="true" aria-label="Contact Message" class="full-width"></textarea>
                         </div>
-                        <div class="form-field">
+                        <div class="form-field" aria-label="Contact Submit">
                             <button class="full-width btn--primary">Submit</button>
                             <div class="submit-loader">
                                 <div class="text-loader">Sending...</div>
@@ -1275,16 +1275,16 @@
                 </div> -->
 
                 <ul class="footer-social">
-                    <li><a href="http://www.linkedin.com/in/jeremycte" target="_blank" rel="noopener">
-                            <i class="im im-linkedin" aria-hidden="true"></i>
+                    <li><a href="http://www.linkedin.com/in/jeremycte" target="_blank" aria-label="visit my LinkedIn profile" rel="noopener" name="LinkedIn">
+                            <i class="im im-linkedin" aria-label="visit my LinkedIn profile"></i>
                             <!-- <span>LinkedIn</span> -->
                         </a></li>
-                    <li><a href="http://www.facebook.com/jeremycte23" target="_blank" rel="noopener">
-                            <i class="im im-facebook" aria-hidden="true"></i>
+                    <li><a href="http://www.facebook.com/jeremycte23" target="_blank" aria-label="visit my Facebook profile" rel="noopener" name="Facebook">
+                            <i class="im im-facebook" aria-label="visit my Facebook profile"></i>
                             <!-- <span>Facebook</span> -->
                         </a></li>
-                    <li><a href="http://instagram.com/ctecreatives" target="_blank" rel="noopener">
-                            <i class="im im-instagram" aria-hidden="true"></i>
+                    <li><a href="http://instagram.com/ctecreatives" target="_blank" aria-label="visit my Instagram profile" rel="noopener" name="Instagram">
+                            <i class="im im-instagram" aria-label="visit my Instagram page"></i>
                             <!-- <span>Instagram</span> -->
                         </a></li>
                 </ul>
@@ -1358,7 +1358,7 @@
 
     <!-- Java Script
     ================================================== -->
-    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="js/plugins.js"></script>
     <script src="js/main.min.js"></script>
     <!-- <script src="https://www.retainable.io/assets/retainable/rss-embed/retainable-rss-embed.js"></script> -->
