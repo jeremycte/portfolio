@@ -2488,6 +2488,11 @@ html.no-csstransitions .home-content__main {
     z-index: 1;
 }
 
+.blog-img{
+    width:100%;
+
+}
+
 .item-folio__text {
     position: absolute;
     left: 0;

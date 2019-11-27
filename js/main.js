@@ -143,6 +143,18 @@
     });
   };
 
+
+  /* Justified Gallery
+   * ----------------------------------------------------- */
+  var ssJustifiedGallery = function() {
+    $('#mygallery').justifiedGallery({
+      rowHeight : 300,
+      lastRow : 'nojustify',
+      margins : 3,
+      captions: false
+  });
+  };
+
   /* photoswipe
    * ----------------------------------------------------- */
   var ssPhotoswipe = function() {
@@ -395,6 +407,7 @@
     ssMoveHeader();
     ssMobileMenu();
     ssMasonryFolio();
+    ssJustifiedGallery();
     ssPhotoswipe();
     ssSlickSlider();
     ssWaypoints();
