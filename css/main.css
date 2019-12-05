@@ -98,13 +98,13 @@ body {
  * ------------------------------------------------------------------- */
 
 a {
-    color: rgb(217, 218, 223);
+    color: #007bff;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
 }
 
 a:hover, a:focus, a:active {
-    color: #007bff;
+    color: #001eca;
 }
 
 a:focus {

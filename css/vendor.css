@@ -794,7 +794,7 @@ a.pswp__share--download:hover {
     font-size: 13px;
     padding: 10px;
     line-height: 20px;
-    color: rgba(255, 255, 255, 0.5);
+    color: rgba(255, 255, 255, 0.8);
 }
 
 .pswp__caption--empty {
@@ -1003,7 +1003,7 @@ a.pswp__share--download:hover {
 }
 
 .pswp__top-bar, .pswp__caption {
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.8);
 }
 
 
