@@ -3550,6 +3550,12 @@ article.blog-single .blog-content {
     min-height: 50.4rem;
 }
 
+.page-header--extended {
+    padding-top: 22.4rem;
+    padding-bottom: 22.4rem;
+    text-align: center;
+}
+
 .page-header--single {
     padding-top: 22.8rem;
     padding-bottom: 7.2rem;
@@ -3749,6 +3755,9 @@ article.blog-single .blog-content {
 @media only screen and (max-width: 600px) {
     .page-header {
         padding-top: 18rem;
+    }
+    .page-header--extended{
+        padding-top: 22.4rem;
     }
     .page-header__content p {
         padding-right: 0;
