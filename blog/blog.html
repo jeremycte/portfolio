@@ -282,7 +282,7 @@
 
           <div class="col-twelve">
               <div class="copyright">
-                  <span>© COPYRIGHT 2019 JEREMY CHAN</span>
+                  <span id="copyright-year"></span>
               </div>
 
               <div class="go-top">
@@ -304,5 +304,10 @@
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="../js/plugins.js"></script>
     <script src="../js/main.min.js"></script>
+    <script>
+      var year = new Date().getFullYear();
+      var label = "© COPYRIGHT " + year +" JEREMY CHAN";
+      document.getElementById("copyright-year").innerHTML = label;
+    </script>
   </body>
 </html>

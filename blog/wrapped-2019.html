@@ -122,29 +122,29 @@
     <div class="row blog-content">
       <div class="col-full blog-content__main">
         <p class="drop-cap">
-          Just like that, in a blink of an eye, 2019 is over. 
-          Every joyous, sad, angry, frustrated, mundane, new and exciting moments are now gone and are in the past. 
-          Though 2020 is just hours away, sometimes I believe we often over exaggerate the calendar year that was put in place. 
-          Personally, 2018, 2019, 2020 are just numbers on a calendar. 
-          Numbers are meaningless if we never start appreciating the time we have each day and each moment. 
-          Each year will come and go but something I've always consider every once in a while, 
-          would be what have I experienced or learned in the past 12 months of 2019? What have I done in 2019? 
-          What are some of my greatest hits of 2019? 
+          Just like that, in a blink of an eye, 2019 is over.
+          Every joyous, sad, angry, frustrated, mundane, new and exciting moments are now gone and are in the past.
+          Though 2020 is just hours away, sometimes I believe we often over exaggerate the calendar year that was put in place.
+          Personally, 2018, 2019, 2020 are just numbers on a calendar.
+          Numbers are meaningless if we never start appreciating the time we have each day and each moment.
+          Each year will come and go but something I've always consider every once in a while,
+          would be what have I experienced or learned in the past 12 months of 2019? What have I done in 2019?
+          What are some of my greatest hits of 2019?
         </p>
 
         <p>
-          Our lives on earth is short, each and every one of us will one day greet death as an old friend. 
-          So, as the year comes to an end, and another year comes forward, 
-          looking back to the past 12 months, what have we done? 
-          2019 has been a bumpy but thrilling ride. 
-          The past 12 months, the memories and friendships forged has given me more meaning to life. 
-          God has always been faithful and He has never failed me. Nor will He fail me. 
-          He has been a Good Good Father and I am grateful for all the things that I've achieved, learned, and experienced in 2019. 
-          Deep down, I want to remember and be remembered for. Nothing else matters. 
-          What I do today and the lives I've impacted matters a lot to me. 
-          I see only my greatest hits and I want to remember all of those moments that has brought life, 
-          joy, grace, faith and blessings upon my life and the life of the people around me. 
-          Sometimes, I've always hoped for certain moments to go on forever and I pray that this article can try to keep those moments alive forever. 
+          Our lives on earth is short, each and every one of us will one day greet death as an old friend.
+          So, as the year comes to an end, and another year comes forward,
+          looking back to the past 12 months, what have we done?
+          2019 has been a bumpy but thrilling ride.
+          The past 12 months, the memories and friendships forged has given me more meaning to life.
+          God has always been faithful and He has never failed me. Nor will He fail me.
+          He has been a Good Good Father and I am grateful for all the things that I've achieved, learned, and experienced in 2019.
+          Deep down, I want to remember and be remembered for. Nothing else matters.
+          What I do today and the lives I've impacted matters a lot to me.
+          I see only my greatest hits and I want to remember all of those moments that has brought life,
+          joy, grace, faith and blessings upon my life and the life of the people around me.
+          Sometimes, I've always hoped for certain moments to go on forever and I pray that this article can try to keep those moments alive forever.
         </p>
 
         <p class="lead text-center">
@@ -717,7 +717,7 @@
 
           <div class="col-twelve">
               <div class="copyright">
-                  <span>© COPYRIGHT 2019 JEREMY CHAN</span>
+                <span id="copyright-year"></span>
               </div>
 
               <div class="go-top">
@@ -782,6 +782,11 @@
   <script src="../js/plugins.js"></script>
   <script src="/js/wrapped19.js"></script>
   <script src="../js/main.js"></script>
+  <script>
+    var year = new Date().getFullYear();
+    var label = "© COPYRIGHT " + year +" JEREMY CHAN";
+    document.getElementById("copyright-year").innerHTML = label;
+  </script>
 </body>
 
 </html>
