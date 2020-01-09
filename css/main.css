@@ -2808,6 +2808,10 @@ html.no-csstransitions .home-content__main {
     background-color: rgba(255, 255, 255, 0.1);
 }
 
+.testimonials__slide p{
+    color: rgba(255, 255, 255, 0.9);
+}
+
 .testimonials__avatar {
     width: 6.6rem;
     height: 6.6rem;
@@ -2828,7 +2832,7 @@ html.no-csstransitions .home-content__main {
     display: block;
     font-family: "montserrat-regular", sans-serif;
     font-size: 1.3rem;
-    color: rgba(95, 95, 95, 0.7);
+    color: rgba(255, 255, 255, 0.8);
     text-transform: none;
     letter-spacing: 0;
 }
