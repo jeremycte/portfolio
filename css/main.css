@@ -2302,6 +2302,7 @@ html.no-csstransitions .home-content__main {
 .timeline__header h3 {
     line-height: 1.25;
     margin: 0 0 .3rem 0;
+
 }
 
 .timeline__header h5 {
@@ -2313,6 +2314,28 @@ html.no-csstransitions .home-content__main {
     padding-bottom: 3rem;
 }
 
+.timeline__avatar{
+    background-size: cover;
+    width: 6.6rem;
+    height: 6.6rem;
+    box-shadow: 0 0 0 0.9rem rgba(255, 255, 255, 0.1);
+    border-radius: 100%;
+    position: absolute;
+    left: 7.9rem;
+    top: 2.5rem;
+    outline: none;
+}
+
+.timeline__avatar_cover{
+    object-fit: cover;
+}
+
+.timeline__avatar_contain{
+    object-fit: contain;
+}
+.timeline__withAvatar{
+    padding-left: 8rem;
+}
 
 /* -------------------------------------------------------------------
  * responsive:
