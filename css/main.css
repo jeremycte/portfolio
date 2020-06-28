@@ -3088,7 +3088,7 @@ html.no-csstransitions .home-content__main {
 
 .s-contact {
     background-color: #151515;
-    background-image: url("../images/contact-bg.jpg");
+    background-image: url("https://res.cloudinary.com/jeremycte/image/upload/q_auto:eco/v1593355915/contact-bg.jpg");
     background-size: cover;;
     background-repeat: no-repeat;
     background-position: center, center;
@@ -3133,6 +3133,7 @@ html.no-csstransitions .home-content__main {
 .s-contact .form-field label {
     font-family: "montserrat-semibold", sans-serif;
     font-size: 1.1rem;
+    font-display: swap;
     line-height: 2.4rem;
     position: absolute;
     bottom: -0.3rem;
@@ -3240,6 +3241,7 @@ html.no-csstransitions .home-content__main {
 .submit-loader .text-loader {
     display: none;
     font-family: "montserrat-bold", sans-serif;
+    font-display: swap;
     font-size: 1.4rem;
     color: #FFFFFF;
     letter-spacing: .2rem;
@@ -3351,6 +3353,7 @@ html.no-csstransitions .home-content__main {
 
 footer {
     font-family: "montserrat-regular", sans-serif;
+    font-display: swap;
     font-size: 14px;
     padding: 4.5rem 0 4.2rem;
     text-align: center;
@@ -3379,6 +3382,7 @@ footer a:hover, footer a:focus {
     margin-top: 3rem;
     margin-left: 0;
     font-family: "montserrat-regular", sans-serif;
+    font-display: swap;
     font-size: 1.3rem;
     text-transform: uppercase;
     letter-spacing: .3rem;
@@ -3600,6 +3604,7 @@ article.blog-single .blog-content {
 
 .page-header__content {
     font-family: "montserrat-regular", sans-serif;
+    font-display: swap;
     font-size: 2rem;
     line-height: 1.8;
     position: relative;
@@ -3632,6 +3637,7 @@ article.blog-single .blog-content {
     letter-spacing: .16rem;
     color: rgba(255, 255, 255, 0.8);
     font-family: "montserrat-bold", sans-serif;
+    font-display: swap;
 }
 
 .page-header__cat a {
@@ -3652,6 +3658,7 @@ article.blog-single .blog-content {
 
 .page-header__date {
     font-family: "montserrat-light", sans-serif;
+    font-display: swap;
     font-size: 1.5rem;
     color: rgba(255, 255, 255, 0.4);
 }
