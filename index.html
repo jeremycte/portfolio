@@ -24,15 +24,15 @@
     <meta property="og:type" content="website" />
     <!-- Thumbnail 1900 * 930 -->
     <meta property="og:image" content="http://res.cloudinary.com/jeremycte/image/upload/v1593357437/thumbnail_1600_u6rmxx.png">
-    <meta property="og:image:secure_url" content="https://res.cloudinary.com/jeremycte/image/upload/v1593357437/thumbnail_1600_u6rmxx.png" />
+    <meta property="og:image:secure" content="https://res.cloudinary.com/jeremycte/image/upload/v1593357437/thumbnail_1600_u6rmxx.png" />
     <meta property="og:image:height" content="1600" />
     <!-- Thumbnail 1000 -->
     <meta property="og:image" content="http://res.cloudinary.com/jeremycte/image/upload/v1593357367/thumbnail_1000_xjk7pd.jpg">
-    <meta property="og:image:secure_url" content="https://res.cloudinary.com/jeremycte/image/upload/v1593357367/thumbnail_1000_xjk7pd.jpg" />
+    <meta property="og:image:secure" content="https://res.cloudinary.com/jeremycte/image/upload/v1593357367/thumbnail_1000_xjk7pd.jpg" />
     <meta property="og:image:height" content="1000" />
     <!-- Thumbnail 600 -->
     <meta property="og:image" content="http://res.cloudinary.com/jeremycte/image/upload/v1593357373/thumbnail_600-300_deozbl.jpg">
-    <meta property="og:image:secure_url" content="https://res.cloudinary.com/jeremycte/image/upload/v1593357373/thumbnail_600-300_deozbl.jpg" />
+    <meta property="og:image:secure" content="https://res.cloudinary.com/jeremycte/image/upload/v1593357373/thumbnail_600-300_deozbl.jpg" />
     <meta property="og:image:height" content="600" />
 
 
@@ -48,6 +48,7 @@
 
     <!-- script
     ================================================== -->
+    <script src="js/lazysizes.min.js" async=""></script>
     <script src="js/modernizr.js"></script>
     <script src="js/pace.min.js"></script>
 
@@ -189,8 +190,8 @@
 
     <!-- home
    ================================================== -->
-    <section id="home" class="s-home page-hero target-section" 
-    data-parallax="scroll"
+    <section id="home" class="s-home page-hero target-section lazyload" 
+        data-parallax="scroll"
         data-image-src="https://res.cloudinary.com/jeremycte/image/upload/q_auto:eco/v1593355918/hero-bg.jpg" 
         data-image-alt="hero-bg" 
         alt="hero-bg" 
@@ -270,13 +271,13 @@
 
             <div class="col-six tab-full">
 
-                <img src="https://res.cloudinary.com/jeremycte/image/upload/q_auto:low/v1593355907/work-pf.jpg" alt="work-pf">
+                <img class="lazyload" src="https://res.cloudinary.com/jeremycte/image/upload/q_auto:low/v1593355907/work-pf.jpg" alt="work-pf">
 
             </div>
 
             <div class="col-six tab-full">
 
-                <img src="https://res.cloudinary.com/jeremycte/image/upload/q_auto:low/v1593355913/christmas-pf.jpg" alt="christmas-pf">
+                <img class="lazyload" src="https://res.cloudinary.com/jeremycte/image/upload/q_auto:low/v1593355913/christmas-pf.jpg" alt="christmas-pf">
 
             </div>
 
@@ -593,11 +594,12 @@
                     <div class="item-folio">
 
                         <div class="item-folio__thumb">
-                            <a href="images/portfolio/gallery/g-gwen.jpg" class="thumb-link" title="Gwen's 1st"
+                            <a href="images/portfolio/gallery/g-gwen.jpg" class="thumb-link lazyload" title="Gwen's 1st"
                                 data-size="1050x700">
                                 <img src="https://res.cloudinary.com/jeremycte/image/upload/q_auto:eco/v1593357736/g-gwen_tn_j6q1cc.jpg"
                                     srcset="https://res.cloudinary.com/jeremycte/image/upload/q_auto:eco/v1593357736/g-gwen_tn_j6q1cc.jpg 1x, https://res.cloudinary.com/jeremycte/image/upload/q_auto:eco/v1593357736/g-gwen_tn_j6q1cc.jpg 2x"
-                                    alt="Gwens 1st Birthday Card image">
+                                    alt="Gwens 1st Birthday Card image"
+                                    class="lazyload">
                                 <span class="shadow-overlay"></span>
                             </a>
                         </div>
@@ -622,10 +624,11 @@
                     <div class="item-folio">
 
                         <div class="item-folio__thumb">
-                            <a href="images/portfolio/gallery/g-samantha.jpg" class="thumb-link"
+                            <a href="images/portfolio/gallery/g-samantha.jpg" class="thumb-link lazyload"
                                 title="Christian & Samantha" data-size="700x1050">
                                 <img src="https://res.cloudinary.com/jeremycte/image/upload/q_auto:eco/v1593357723/g-samantha-tn_yi5txv.jpg"
-                                    alt="Christian & Samantha">
+                                    alt="Christian & Samantha"
+                                    class="lazyload">
                                 <span class="shadow-overlay"></span>
                             </a>
                         </div>
@@ -651,10 +654,11 @@
                     <div class="item-folio">
 
                         <div class="item-folio__thumb">
-                            <a href="images/portfolio/gallery/g-qingyi.jpg" class="thumb-link" data-size="1050x700">
+                            <a href="images/portfolio/gallery/g-qingyi.jpg" class="thumb-link lazyload" data-size="1050x700">
                                 <img src="https://res.cloudinary.com/jeremycte/image/upload/q_auto:eco/v1593357726/g-qingyi_tn_qnbm1l.jpg"
                                     srcset="https://res.cloudinary.com/jeremycte/image/upload/q_auto:eco/v1593357726/g-qingyi_tn_qnbm1l.jpg 1x, https://res.cloudinary.com/jeremycte/image/upload/q_auto:eco/v1593357726/g-qingyi_tn_qnbm1l.jpg 2x"
-                                    alt="Qing Yi Birthday Smilling">
+                                    alt="Qing Yi Birthday Smilling"
+                                    class="lazyload">
                                 <span class="shadow-overlay"></span>
                             </a>
                         </div>
@@ -679,10 +683,11 @@
                     <div class="item-folio">
 
                         <div class="item-folio__thumb">
-                            <a href="images/portfolio/gallery/g-jerald.jpg" class="thumb-link" data-size="700x1050">
+                            <a href="images/portfolio/gallery/g-jerald.jpg" class="thumb-link lazyload" data-size="700x1050">
                                 <img src="https://res.cloudinary.com/jeremycte/image/upload/q_auto:eco/v1593357712/g-jerald_tn_vlwh79.jpg"
                                     srcset="https://res.cloudinary.com/jeremycte/image/upload/q_auto:eco/v1593357712/g-jerald_tn_vlwh79.jpg 1x, https://res.cloudinary.com/jeremycte/image/upload/q_auto:eco/v1593357712/g-jerald_tn_vlwh79.jpg 2x"
-                                    alt="Jerald Portraiture">
+                                    alt="Jerald Portraiture"
+                                    class="lazyload">
                                 <span class="shadow-overlay"></span>
                             </a>
                         </div>
@@ -707,11 +712,12 @@
                     <div class="item-folio">
 
                         <div class="item-folio__thumb">
-                            <a href="images/portfolio/gallery/g-nightfestival2.jpg" class="thumb-link"
+                            <a href="images/portfolio/gallery/g-nightfestival2.jpg" class="thumb-link lazyload"
                                 data-size="750x1050">
                                 <img src="https://res.cloudinary.com/jeremycte/image/upload/q_auto:eco/v1593357712/g-nightfestival2_tn_ma4ork.jpg"
                                     srcset="https://res.cloudinary.com/jeremycte/image/upload/q_auto:eco/v1593357712/g-nightfestival2_tn_ma4ork.jpg 1x, https://res.cloudinary.com/jeremycte/image/upload/q_auto:eco/v1593357712/g-nightfestival2_tn_ma4ork.jpg 2x"
-                                    alt="Night Festival">
+                                    alt="Night Festival"
+                                    class="lazyload">
                                 <span class="shadow-overlay"></span>
                             </a>
                         </div>
@@ -736,11 +742,12 @@
                     <div class="item-folio">
 
                         <div class="item-folio__thumb">
-                            <a href="images/portfolio/gallery/g-nightfestival.jpg" class="thumb-link"
+                            <a href="images/portfolio/gallery/g-nightfestival.jpg" class="thumb-link lazyload"
                                 data-size="1050x700">
                                 <img src="https://res.cloudinary.com/jeremycte/image/upload/q_auto:eco/v1593357710/g-nightfestival_tn_bzlt76.jpg"
                                     srcset="https://res.cloudinary.com/jeremycte/image/upload/q_auto:eco/v1593357710/g-nightfestival_tn_bzlt76.jpg 1x, https://res.cloudinary.com/jeremycte/image/upload/q_auto:eco/v1593357710/g-nightfestival_tn_bzlt76.jpg 2x"
-                                    alt="Night festival">
+                                    alt="Night festival"
+                                    class="lazyload">
                                 <span class="shadow-overlay"></span>
                             </a>
                         </div>
@@ -765,11 +772,12 @@
                     <div class="item-folio">
 
                         <div class="item-folio__thumb">
-                            <a href="images/portfolio/gallery/g-passageintime.jpg" class="thumb-link"
+                            <a href="images/portfolio/gallery/g-passageintime.jpg" class="thumb-link lazyload"
                                 data-size="700x1050">
                                 <img src="https://res.cloudinary.com/jeremycte/image/upload/q_auto:eco/v1593357723/g-passageintime_tn_cngm6j.jpg"
                                     srcset="https://res.cloudinary.com/jeremycte/image/upload/q_auto:eco/v1593357723/g-passageintime_tn_cngm6j.jpg 1x, https://res.cloudinary.com/jeremycte/image/upload/q_auto:eco/v1593357723/g-passageintime_tn_cngm6j.jpg 2x"
-                                    alt="Passage in Time">
+                                    alt="Passage in Time"
+                                    class="lazyload">
                                 <span class="shadow-overlay"></span>
                             </a>
                         </div>
@@ -795,10 +803,11 @@
                     <div class="item-folio">
 
                         <div class="item-folio__thumb">
-                            <a href="images/portfolio/gallery/g-valen.jpg" class="thumb-link" data-size="1280x853">
+                            <a href="images/portfolio/gallery/g-valen.jpg" class="thumb-link lazyload" data-size="1280x853">
                                 <img src="https://res.cloudinary.com/jeremycte/image/upload/q_auto:good/v1593357709/g-valen_tn.jpg"
                                     srcset="https://res.cloudinary.com/jeremycte/image/upload/q_auto:good/v1593357709/g-valen_tn.jpg 1x, https://res.cloudinary.com/jeremycte/image/upload/q_auto:good/v1593357709/g-valen_tn.jpg 2x"
-                                    alt="Valen swimming and laughing">
+                                    alt="Valen swimming and laughing"
+                                    class="lazyload">
                                 <span class="shadow-overlay"></span>
                             </a>
                         </div>
@@ -823,10 +832,11 @@
                     <div class="item-folio">
 
                         <div class="item-folio__thumb">
-                            <a href="images/portfolio/gallery/g-redbridge.jpg" class="thumb-link" data-size="3000x2000">
+                            <a href="images/portfolio/gallery/g-redbridge.jpg" class="thumb-link lazyload" data-size="3000x2000">
                                 <img src="https://res.cloudinary.com/jeremycte/image/upload/q_auto:eco/v1593357724/g-redbridge_tn_rkjpu0.jpg"
                                     srcset="https://res.cloudinary.com/jeremycte/image/upload/q_auto:eco/v1593357724/g-redbridge_tn_rkjpu0.jpg 1x, https://res.cloudinary.com/jeremycte/image/upload/q_auto:eco/v1593357724/g-redbridge_tn_rkjpu0.jpg 2x"
-                                    alt="3 Friends on a Red Bridge">
+                                    alt="3 Friends on a Red Bridge"
+                                    class="lazyload">
                                 <span class="shadow-overlay"></span>
                             </a>
                         </div>
@@ -851,10 +861,11 @@
                     <div class="item-folio">
 
                         <div class="item-folio__thumb">
-                            <a href="images/portfolio/gallery/g-studio.jpg" class="thumb-link" data-size="700x1050">
+                            <a href="images/portfolio/gallery/g-studio.jpg" class="thumb-link lazyload" data-size="700x1050">
                                 <img src="https://res.cloudinary.com/jeremycte/image/upload/q_auto:eco/v1593357700/g-studio_tn_c5z1j6.jpg"
                                     srcset="https://res.cloudinary.com/jeremycte/image/upload/q_auto:eco/v1593357700/g-studio_tn_c5z1j6.jpg 1x, https://res.cloudinary.com/jeremycte/image/upload/q_auto:eco/v1593357700/g-studio_tn_c5z1j6.jpg 2x"
-                                    alt="Studio Shoot of a women">
+                                    alt="Studio Shoot of a women"
+                                    class="lazyload">
                                 <span class="shadow-overlay"></span>
                             </a>
                         </div>
@@ -880,10 +891,11 @@
                     <div class="item-folio">
 
                         <div class="item-folio__thumb">
-                            <a href="images/portfolio/gallery/g-sheena.jpg" class="thumb-link" data-size="1280x853">
+                            <a href="images/portfolio/gallery/g-sheena.jpg" class="thumb-link lazyload" data-size="1280x853">
                                 <img src="https://res.cloudinary.com/jeremycte/image/upload/q_auto:eco/v1593357733/g-sheena_tn_ibqwem.jpg"
                                     srcset="https://res.cloudinary.com/jeremycte/image/upload/q_auto:eco/v1593357733/g-sheena_tn_ibqwem.jpg 1x, https://res.cloudinary.com/jeremycte/image/upload/q_auto:eco/v1593357733/g-sheena_tn_ibqwem.jpg 2x"
-                                    alt="Sheena's Birthday Party">
+                                    alt="Sheena's Birthday Party"
+                                    class="lazyload">
                                 <span class="shadow-overlay"></span>
                             </a>
                         </div>
@@ -934,11 +946,12 @@
                     <div class="item-folio">
 
                         <div class="item-folio__thumb">
-                            <a href="images/portfolio/projects/p-ValitPoster.jpg" class="thumb-link"
+                            <a href="images/portfolio/projects/p-ValitPoster.jpg" class="thumb-link lazyload"
                                 title="Valit Poster" data-size="750x1050">
                                 <img src="images/portfolio/projects/p-ValitPoster_tn.jpg"
                                     srcset="images/portfolio/projects/p-ValitPoster_tn.jpg 1x, images/portfolio/projects/p-ValitPoster_tn.jpg 2x"
-                                    alt="Valit Blockchain Project">
+                                    alt="Valit Blockchain Project"
+                                    class="lazyload">
                                 <span class="shadow-overlay"></span>
                             </a>
                         </div>
@@ -969,10 +982,11 @@
                     <div class="item-folio">
 
                         <div class="item-folio__thumb">
-                            <a href="images/portfolio/projects/p-sip.jpg" class="thumb-link" data-size="1050x700">
+                            <a href="images/portfolio/projects/p-sip.jpg" class="thumb-link lazyload" data-size="1050x700">
                                 <img src="images/portfolio/projects/p-sip_tn.jpg"
                                     srcset="images/portfolio/projects/p-sip_tn.jpg 1x, images/portfolio/projects/p-sip_tn.jpg 2x"
-                                    alt="Social Innovation Project Mindfulness">
+                                    alt="Social Innovation Project Mindfulness"
+                                    class="lazyload">
                                 <span class="shadow-overlay"></span>
                             </a>
                         </div>
@@ -1004,10 +1018,11 @@
                     <div class="item-folio">
 
                         <div class="item-folio__thumb">
-                            <a href="images/portfolio/projects/p-AppDev.png" class="thumb-link" data-size="1050x700">
+                            <a href="images/portfolio/projects/p-AppDev.png" class="thumb-link lazyload" data-size="1050x700">
                                 <img src="images/portfolio/projects/p-AppDev.png"
                                     srcset="images/portfolio/projects/p-AppDev.png 1x, images/portfolio/projects/p-AppDev.png 2x"
-                                    alt="Application Development C#">
+                                    alt="Application Development C#"
+                                    class="lazyload">
                                 <span class="shadow-overlay"></span>
                             </a>
                         </div>
@@ -1033,10 +1048,11 @@
                     <div class="item-folio">
 
                         <div class="item-folio__thumb">
-                            <a href="images/portfolio/projects/p-Foodify.jpg" class="thumb-link" data-size="1920x1080">
+                            <a href="images/portfolio/projects/p-Foodify.jpg" class="thumb-link lazyload" data-size="1920x1080">
                                 <img src="images/portfolio/projects/p-Foodify_tn.jpg"
                                     srcset="images/portfolio/projects/p-Foodify_tn.jpg 1x, images/portfolio/projects/p-Foodify_tn.jpg 2x"
-                                    alt="Foodify User Interface Design">
+                                    alt="Foodify User Interface Design"
+                                    class="lazyload">
                                 <span class="shadow-overlay"></span>
                             </a>
                         </div>
@@ -1067,10 +1083,11 @@
                     <div class="item-folio">
 
                         <div class="item-folio__thumb">
-                            <a href="images/portfolio/projects/p-BI.png" class="thumb-link" data-size="1920x1080">
+                            <a href="images/portfolio/projects/p-BI.png" class="thumb-link lazyload" data-size="1920x1080">
                                 <img src="images/portfolio/projects/p-BI_tn.png"
                                     srcset="images/portfolio/projects/p-BI_tn.png 1x, images/portfolio/projects/p-BI_tn.png 2x"
-                                    alt="Business Intelligence Sales Analysis">
+                                    alt="Business Intelligence Sales Analysis"
+                                    class="lazyload">
                                 <span class="shadow-overlay"></span>
                             </a>
                         </div>
@@ -1104,10 +1121,11 @@
                     <div class="item-folio">
 
                         <div class="item-folio__thumb">
-                            <a href="images/portfolio/projects/p-DEUI.jpg" class="thumb-link" data-size="1920x1080">
+                            <a href="images/portfolio/projects/p-DEUI.jpg" class="thumb-link lazyload" data-size="1920x1080">
                                 <img src="images/portfolio/projects/p-DEUI.jpg"
                                     srcset="images/portfolio/projects/p-DEUI.jpg 1x, images/portfolio/projects/p-DEUI.jpg 2x"
-                                    alt="Design User Interaction">
+                                    alt="Design User Interaction"
+                                    class="lazyload">
                                 <span class="shadow-overlay"></span>
                             </a>
                         </div>
@@ -1137,10 +1155,11 @@
                     <div class="item-folio">
 
                         <div class="item-folio__thumb">
-                            <a href="images/portfolio/projects/p-Portfolio.png" class="thumb-link" data-size="1900x930">
+                            <a href="images/portfolio/projects/p-Portfolio.png" class="thumb-link lazyload" data-size="1900x930">
                                 <img src="images/portfolio/projects/p-Portfolio.png"
                                     srcset="images/portfolio/projects/p-Portfolio.png 1x, images/portfolio/projects/p-Portfolio.png 2x"
-                                    alt="Jeremy Chan Tse Ee Portfolio Website">
+                                    alt="Jeremy Chan Tse Ee Portfolio Website"
+                                    class="lazyload">
                                 <span class="shadow-overlay"></span>
                             </a>
                         </div>
