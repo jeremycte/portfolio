@@ -34,7 +34,7 @@ if($_POST) {
     $message .= "<strong>Email address:</strong> " . $email . "<br />";
     $message .= "<strong>Message:</strong> <br />";
     $message .= $contact_message;
-    $message .= "<br /> ----------------------------------- <br /> This email was sent from www.jeremychan.co <br />";
+    $message .= "<br /> ----------------------------------- <br /> This email was sent from www.jeremycte.com <br />";
 
     // Set From: header
     $from =  $name . " <" . $email . ">";

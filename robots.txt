@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
-Sitemap: https://jeremychan.co/sitemap.xml
+Sitemap: https://jeremycte.com/sitemap.xml
 
