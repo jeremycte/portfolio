@@ -8,3 +8,4 @@ Arranged by folders eg. js, php, images, fonts, css and blog
 blessings.jeremycte.com
 2020.jeremycte.com
 hello.jeremycte.com
+christmas.jeremycte.com
