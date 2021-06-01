@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<!--[if lt IE 9]><html class="no-js oldie" lang="en"> <![endif]-->
+<!--[if IE 9]><html class="no-js oldie ie9" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html class="no-js" lang="en">
+  <!--<![endif]-->
+
+  <head>
+    <!--- basic page needs
+    ================================================== -->
+    <meta charset="utf-8" />
+    <title>Blog - Application Development</title>
+    <meta name="keywords"  content="photography,portfolio,singapore,singaporepolytechnic,jeremychan,chantseee,jeremy,chan,tse,ee,tseee,ctecreatives,tzeee,tze, cteadeventure, jeremy chan co, coder, IT" />
+    <meta name="description" content="Undergraduate Business Analytics student at the National University of Singapore">
+    <meta name="author" content="Jeremy Chan Tse Ee">
+    <meta name="application-name" content="Jeremy Chan Tse Ee Portfolio">
+
+    <meta property="og:description" content="Undergraduate Business Analytics student at the National University of Singapore" />
+    <meta property="og:title" content="Jeremy Chan Tse Ee Portfolio">
+    <meta property="og:site_name" content="Jeremy Chan Tse Ee">
+    <meta property="og:url" content="http://jeremycte.com">
+    <meta property="og:type" content="website" />
+    <!-- Thumbnail 1900 * 930 -->
+    <meta property="og:image" content="http://jeremycte.com/images/thumbnail_original.jpg">
+    <meta property="og:image:secure_url" content="https://jeremycte.com/images/thumbnail_original.jpg" />
+    <meta property="og:image:height" content="1800" />
+    <!-- Thumbnail 1000 -->
+    <meta property="og:image" content="http://jeremycte.com/images/thumbnail_1000.jpg">
+    <meta property="og:image:secure_url" content="https://jeremycte.com/images/thumbnail_1000.jpg" />
+    <meta property="og:image:height" content="1000" />
+    <!-- Thumbnail 600 -->
+    <meta property="og:image" content="http://jeremycte.com/images/thumbnail_600-300.jpg">
+    <meta property="og:image:secure_url" content="https://jeremycte.com/images/thumbnail_600-300.jpg" />
+    <meta property="og:image:height" content="600" />
+    <!-- Thumbnail Square -->
+    <meta property="og:image" content="http://jeremycte.com/images/thumbnail_square-80.jpg">
+    <meta property="og:image:secure_url" content="https://jeremycte.com/images/thumbnail_square-80.jpg" />
+    <meta property="og:image:height" content="100" />
+
+    <!-- mobile specific metas
+    ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="../css/base.css" />
+    <link rel="stylesheet" href="../css/vendor.css" />
+    <link rel="stylesheet" href="../css/main.css" />
+
+    <!-- script
+    ================================================== -->
+    <script src="../js/modernizr.js"></script>
+    <script src="../js/pace.min.js"></script>
+
+    <!-- favicons
+    ================================================== -->
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="../favicon.ico" type="image/x-icon" />
+
+    <!-- Google Analytics
+    ================================================== -->
+    <script>
+      (function(i, s, o, g, r, a, m) {
+        i["GoogleAnalyticsObject"] = r;
+        (i[r] =
+          i[r] ||
+          function() {
+            (i[r].q = i[r].q || []).push(arguments);
+          }),
+          (i[r].l = 1 * new Date());
+        (a = s.createElement(o)), (m = s.getElementsByTagName(o)[0]);
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m);
+      })(
+        window,
+        document,
+        "script",
+        "https://www.google-analytics.com/analytics.js",
+        "ga"
+      );
+
+      ga("create", "UA-127632016-1", "auto");
+      ga("send", "pageview");
+    </script>
+    <!-- End Google Analytics -->
+
+    <!-- Facebook Pixel Code for www.jeremycte.com
+    ================================================== -->
+    <script>
+        !function(f,b,e,v,n,t,s)
+        {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+        n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+        if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+        n.queue=[];t=b.createElement(e);t.async=!0;
+        t.src=v;s=b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t,s)}(window, document,'script',
+        'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '644969876294158');
+        fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+        src="https://www.facebook.com/tr?id=644969876294158&ev=PageView&noscript=1"
+    /></noscript>
+    <!-- End Facebook Pixel Code -->
+  </head>
+
+  <body id="top">
+    <!-- header
+    ================================================== -->
+    <header class="s-header">
+      <div class="header-logo">
+        <a class="site-logo" href="https://jeremycte.com"
+          ><img src="../images/logo.png" alt="Homepage"
+        /></a>
+      </div>
+
+      <nav class="header-nav-wrap">
+        <ul class="header-nav">
+          <li><a href="../index.html#home" title="home">Home</a></li>
+          <li><a href="../index.html#about" title="about">About</a></li>
+          <li><a href="../index.html#works" title="works">Works</a></li>
+          <li class="current"><a href="blog.html" title="blog">Blog</a></li>
+          <li><a href="../index.html#contact" title="contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <a class="header-menu-toggle" href="#0"><span>Menu</span></a>
+    </header>
+    <!-- end s-header -->
+
+    <article class="blog-single">
+      <!-- page header/blog hero
+        ================================================== -->
+      <div
+        class="page-header page-header--single page-hero"
+        style="background-image:url(../images/blog/blog-appdev/blog-git-hero.jpg); background-size:cover;"
+      >
+        <div class="row page-header__content narrow">
+          <article class="col-full">
+            <div class="page-header__info">
+              <div class="page-header__cat"><a>Coding</a><a>Learning</a></div>
+            </div>
+            <h1 class="page-header__title">
+              <a>
+                C# Application Development
+              </a>
+            </h1>
+            <ul class="page-header__meta">
+              <li class="date">October 22, 2019</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+      <!-- end page-header -->
+
+      <div class="row blog-content">
+        <div class="col-full blog-content__main">
+          <p class="drop-cap">
+            It was the beginning of February 2018 reaching the end of my Semester 2,
+            with only 5 days left before our submission for our C# Application Development,
+            my partner, Javier and I started working on our C# Windows Presentation Format Application.
+            With just tutorials and practical given by our lecturer, both of us didn't know how to code a tour booking application as part of our assignment submission.
+            Might I add that it was both our mistakes to start late and regretted doing it ever again as an important lesson for us both.
+            (p.s Please do not be like us, even though we manage to code finish and submit our application 10 min before our deadline :D)
+          </p>
+
+          <p class="lead text-center">
+            Our tour booking application allows users to log in, book a tour and make payment for their desired tour.
+          </p>
+          <p>
+            For context, our assignment involves coding and creating a Tour Booking Application using C# (pronounced as C Sharp not C Hashtag) code from scratch that is able to allow users to log in,
+            book a tour and make payment for the selected tour. Sounds easy?
+            If you're an expert coder, this might be a piece of cake but if you're a novice entry-level coder like us, then it would be a great mistake to start 5 days before your deadline.
+            With this in mind, 5 days was pure luck and hard work for us both and we were extremely lucky to be able to complete and submit the required deliverables in time.
+          </p>
+
+          <p>
+            In the beginning, both Javier and I wanted to incorporate beauty and utility into the application thus,
+            we started by designing our dream application with beautiful icon, designs,
+            pictures while loading it with the required functionality of a tour booking application. We looked and searched online for inspirations,
+            ideas and programming knowledge on what's best to move forward with this idea? Was it Windows Presentation Format (WPF) or
+            Windows Forms (WinForms)? We decided with WinForms as it was easier,
+            more streamlined and compliments our difficultly level as it didn't require us to learn XML language as WPF requires us coding the user interface using XML :')
+            Using WPF would have been impossible to code our application within the required deadline.
+          </p>
+
+          <blockquote class="text-center">
+            <p style="color:#000">
+              You may delay, but time will not.
+              <cite><a>Benjamin Franklin</a></cite>
+            </p>
+          </blockquote>
+
+
+          <div class="row half-bottom">
+
+            <div class="col-full tab-full">
+                <p style="margin-bottom: 0.5rem;"><img src="../images/blog/blog-appdev/bi-appd-1.png"
+                    srcset="../images/blog/blog-appdev/bi-appd-1.png 1000w,
+                    ../images/blog/blog-appdev/bi-appd-1.png 500w"
+                    sizes="(max-width: 1000px) 100vw, 1000px" alt="Screenshot of our Tour Booking Application"></p>
+                <p class="text-center">Screenshot of our Tour Booking Application</p>
+            </div>
+
+            <div class="col-full tab-full">
+
+              <p style="margin-bottom: 0.5rem;"><img src="../images/blog/blog-appdev/bi-appd-2.png"
+                srcset="../images/blog/blog-appdev/bi-appd-2.png 1000w,
+                ../images/blog/blog-appdev/bi-appd-2.png 500w"
+                sizes="(max-width: 1000px) 100vw, 1000px" alt="Tour Booking App Book A Tour Tab">
+              </p>
+              <p class="text-center">Tour Booking Application Book A Tour Tab</p>
+            </div>
+
+          </div> <!-- end row -->
+
+
+          <p>
+            The day before our submission, Sunday 11 am, we both endlessly coded without stopping.
+            We both put in extra effort and energy by researching, coding, cleaning and formatting the code.
+            Our deadline was Monday morning 0800 hours because we were on a tight deadline,
+            we didn't sleep and coded the whole night and completed our application shown in the images above.
+            A total of 18 hours of endless Skype & Team Viewer to share and work together.
+            The result of our outcome was an "A" from our lecturer with the minimum requirements of the assignment.
+          </p>
+
+          <h3>Life Lessons from this assignment</h3>
+
+          <h4>1. Don't Procrastinate</h4>
+
+          <p>
+            Just don't. It's bad. Trust me, I've done it before and it never produces a good outcome. Javier and I were stress, anxious, tired and have a lack of sleep due to our procrastination.
+          </p>
+
+          <h4>2. Google is your best friend. Start there</h4>
+
+          <p>
+            The internet is useful. Learn how to Google rightly and efficiently. Use all the resources available at your disposal. <br/><br>
+
+            <a class="link" target="_blank" rel="noopener" href="https://www.lifehack.org/articles/technology/20-tips-use-google-search-efficiently.html">Google Effectively</a> <br>
+            Learn on how to Google Effectively & Efficiently to get the results you need. <br><br>
+
+            <a class="link" target="_blank" rel="noopener" href="https://stackoverflow.com/">StackOverflow</a> <br>
+            A great website for anyone who has any problem with their code. <br><br>
+
+            <a class="link" target="_blank" rel="noopener" href="https://www.w3schools.com/">W3Schools</a> <br>
+            A great place to understand the basics of coding from HTMl, CSS to C#. <br><br>
+
+            <a class="link" target="_blank" rel="noopener" href="https://visualstudio.microsoft.com/services/live-share/">Visual Studio Live Share</a> <br>
+            A great extension tool for coding simultaneously on a document with a group of people. This is one the best extension tool out there for those who love to use Visual Studio Code. This extension works like magic.
+          </p>
+
+          <p>In a nutshell, I wrote this blog to document the experience and coding journey my partner and I experienced for this assignment.
+            I hope this blog post gives you a better insight into my Application Development Diploma module. Cheers! 😃</h4>
+
+
+          <!-- Post Navigation
+          ================================================== -->
+          <div class="blog-content__pagenav">
+            <div class="blog-content__nav">
+              <div class="blog-content__prev">
+                <a href="wrapped-2019.html" rel="prev">
+                  <span>Previous Post</span>
+                  My Wrapped 2019
+                </a>
+              </div>
+              <div class="blog-content__next">
+                <a href="digital-minimalism.html" rel="next">
+                  <span>Next Post</span>
+                  Digital Minimalism
+                </a>
+              </div>
+            </div>
+
+            <div class="blog-content__all">
+              <a href="blog.html" class="btn btn--primary">
+                View All Post
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- end blog-content__main -->
+      </div>
+      <!-- end blog-content -->
+    </article>
+
+    <!-- footer
+    ================================================== -->
+    <footer>
+        <div class="row">
+            <div class="col-full">
+
+                <!-- <div class="footer-logo">
+                    <a class="footer-site-logo" href="#0"><img src="images/logo.png" alt="Homepage"></a>
+                </div> -->
+
+                <ul class="footer-social">
+                    <li><a href="http://www.linkedin.com/in/jeremycte" target="_blank" aria-label="visit my LinkedIn profile" rel="noopener" name="LinkedIn">
+                            <i class="im im-linkedin" aria-label="visit my LinkedIn profile"></i>
+                            <!-- <span>LinkedIn</span> -->
+                        </a></li>
+                    <li><a href="http://www.facebook.com/jeremycte23" target="_blank" aria-label="visit my Facebook profile" rel="noopener" name="Facebook">
+                            <i class="im im-facebook" aria-label="visit my Facebook profile"></i>
+                            <!-- <span>Facebook</span> -->
+                        </a></li>
+                    <li><a href="http://instagram.com/ctecreatives" target="_blank" aria-label="visit my Instagram profile" rel="noopener" name="Instagram">
+                            <i class="im im-instagram" aria-label="visit my Instagram page"></i>
+                            <!-- <span>Instagram</span> -->
+                        </a></li>
+                </ul>
+
+            </div>
+        </div>
+
+        <div class="row footer-bottom">
+
+            <div class="col-twelve">
+                <div class="copyright">
+                    <span id="copyright-year"></span>
+                </div>
+
+                <div class="go-top">
+                    <a class="smoothscroll" title="Back to Top" href="#top"><i class="im im-arrow-up"
+                            aria-hidden="true"></i></a>
+                </div>
+            </div>
+
+        </div> <!-- end footer-bottom -->
+
+    </footer> <!-- end footer -->
+
+    <!-- photoswipe background
+    ================================================== -->
+    <div aria-hidden="true" class="pswp" role="dialog" tabindex="-1">
+
+        <div class="pswp__bg"></div>
+        <div class="pswp__scroll-wrap">
+
+            <div class="pswp__container">
+                <div class="pswp__item"></div>
+                <div class="pswp__item"></div>
+                <div class="pswp__item"></div>
+            </div>
+
+            <div class="pswp__ui pswp__ui--hidden">
+                <div class="pswp__top-bar">
+                    <div class="pswp__counter"></div><button class="pswp__button pswp__button--close"
+                        title="Close (Esc)"></button>
+                    <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+                    <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+                    <div class="pswp__preloader">
+                        <div class="pswp__preloader__icn">
+                            <div class="pswp__preloader__cut">
+                                <div class="pswp__preloader__donut"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                    <div class="pswp__share-tooltip"></div>
+                </div>
+                <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button>
+                <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)"></button>
+                <div class="pswp__caption">
+                    <div class="pswp__caption__center"></div>
+                </div>
+            </div>
+
+        </div>
+
+    </div><!-- end photoSwipe background -->
+
+    <div id="preloader">
+      <div id="loader"></div>
+    </div>
+
+    <!-- Java Script
+        ================================================== -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="../js/plugins.js"></script>
+    <script src="../js/main.min.js"></script>
+    <script>
+      var year = new Date().getFullYear();
+      var label = "© COPYRIGHT " + year +" JEREMY CHAN";
+      document.getElementById("copyright-year").innerHTML = label;
+    </script>
+  </body>
+</html>
