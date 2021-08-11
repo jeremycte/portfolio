@@ -14,4 +14,4 @@ Arranged by folders eg. js, php, images, fonts, css and blog
 - christmas.jeremycte.com
 
 
-![Jeremy Chan Tse Ee Portfolio Website Screenshot](https://res.cloudinary.com/jeremycte/image/upload/v1622572833/jeremycte_screenshotWebsite_nqsvpz.png)
+![Jeremy Chan Tse Ee Portfolio Website Screenshot](https://res.cloudinary.com/jeremycte23/image/upload/v1628665746/jeremyctewebsite/thumbnail_original_um51j3.jpg)
